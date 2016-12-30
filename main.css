@@ -1,0 +1,104 @@
+body {
+  background-color: #1c1c1c;
+}
+
+h1 {
+  color: #60bf20;
+  font-family: 'Mogra', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+.noselect { /* Disables highlighting */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.clock {
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  height: 300px;
+  width: 300px;
+  border: 5px solid #bd0002;
+  border-radius: 50%;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: Tomato;
+}
+
+#timerLabel {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+#timer {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.row {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.timeType {
+  display: inline-block;
+  margin: 20px 20px 10px 20px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#break {
+  display: inline-block;
+  width: 90px;
+  margin: 0px 30px 0px 0px;
+}
+
+#work {
+  display: inline-block;
+  width: 90px;
+  margin: 0px 0px 0px 30px;
+}
+
+.decr {
+  color: #bd0002;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.incr {
+  color: #60bf20;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.count {
+  color: white;
+  font-size: 35px;
+  pointer-events: none;
+}
+
+button {
+  display: inline;
+  margin: 10px 5px 10px 5px;
+  width: 100px;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  background-color: #60bf20;
+  border-radius: 15px;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}

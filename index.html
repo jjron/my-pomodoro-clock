@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>My Pomodoro Clock</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mogra|Ubuntu">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<div class="container noselect">
+		  <h1>My Pomodoro Clock</h1>
+		  <div class="row">
+		    <p class="timeType">break length</p>
+		    <p class="timeType">work length</p>
+		  </div>
+		  <div class="row">
+		    <div id="break"><span class="decr">-</span> <span class="count" id="breakCount"></span> <span class="incr">+</span></div>
+		    <div id="work"><span class="decr">-</span> <span class="count" id="workCount"></span> <span class="incr">+</span></div>
+		  </div>
+		  <div class="row">
+		    <button id="start">Start</button>
+		    <button id="pause">Pause</button>
+		    <button id="reset">Reset</button>
+		  </div>
+		  <div class="clock animated rollIn">
+		    <p id="timerLabel">session</p>
+		    <p id="timer"></p>
+		  </div>
+		  <p id="footer">by <a href="https://github.com/jjron" target="_blank">Jaren Escueta</a></p>
+		</div>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
